@@ -1,3 +1,9 @@
+/*
+* Assignment 01 for antra SEP Full Stack
+* From  JiaweiZhao
+* Since 2023-01-25
+*/
+
 USE AdventureWorks2019;
 
 -- Q1
