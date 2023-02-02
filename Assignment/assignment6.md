@@ -177,8 +177,7 @@ False.
 ### 23. True/False. A class can implement more than one interface.
 True.
 
-
-Designing and Building Classes using object-oriented principles
+## Designing and Building Classes using object-oriented principles
 1. Write a program that that demonstrates use of four basic principles of
 object-oriented programming /Abstraction/, /Encapsulation/, /Inheritance/ and
 /Polymorphism/.
