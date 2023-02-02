@@ -148,7 +148,7 @@ A class can extend only one abstract class, but multiple interfaces.
 Interface itself can have access specifiers like protected or internal.  
 Members of interface could have all access modifiers, but have to provide a default implementation for private members.
  
-## 12. True/False. Polymorphism allows derived classes to provide different implementations of the same method.
+### 12. True/False. Polymorphism allows derived classes to provide different implementations of the same method.
 True, overloading.
 
 ### 13. True/False. The override keyword is used to indicate that a method in a derived class is providing its own implementation of a method.
