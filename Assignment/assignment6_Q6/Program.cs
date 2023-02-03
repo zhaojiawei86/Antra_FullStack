@@ -54,26 +54,10 @@ namespace Jan2023.Console1
             std.AddCourse(c);
             Console.WriteLine(std.CalculateGPA());
 
-
-            
-
-
-            
-            
-
-
-
-
         }
 
-
-
     }
-
-   
-
     
 }
-
 
 
