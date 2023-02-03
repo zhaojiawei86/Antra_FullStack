@@ -1,4 +1,4 @@
-#Q6
+# Q6
 **1. Write a program that demonstrates use of four basic principles of
 object-oriented programming /Abstraction/, /Encapsulation/, /Inheritance/ and
 /Polymorphism/.  
