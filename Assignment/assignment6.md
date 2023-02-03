@@ -22,7 +22,7 @@ class MyClass
 
  public MyClass(int x1)
  {
- X1 = x1; // initialized at run time
+  X1 = x1; // initialized at run time
  }
 }
 ```
@@ -186,199 +186,38 @@ True.
 ## Designing and Building Classes using object-oriented principles
 **1. Write a program that demonstrates use of four basic principles of
 object-oriented programming /Abstraction/, /Encapsulation/, /Inheritance/ and
-/Polymorphism/.**  
-
-```c#
-// Shape.cs
-// Abstraction
-public abstract class Shape
-{
- public abstract double getArea();
-}
-```
-```c#
-// Circle.cs
-// Inheritance
-public class Circle: Shape
-{
- public double Radius { get; set; }
- public Circle(double radius)
- {
-  this.Radius = radius;
- }
-
- public override double getArea()
- {
-  return (Math.PI * this.Radius * this.Radius);
- }
-}
-```
-```c#
-// Square.cs
-// Encapsulation
-public class Square: Shape
-{
- public double Side { get; set; }
- public Square(double side)
- {
-  this.Side = side;
- }
-
- public override double getArea()
- {
-  return this.Side * this.Side;
- }
-}
-```
-```c#
-// Main
-public static void Main()
-{
- var circle = new Circle(10);      
- var square = new Square(10);
-
- Area(circle);
- Area(square);
-}
-// Polymorphism
-public static void Area(Shape shape)
-{
- Console.WriteLine(shape.GetArea());
-}
-```
-
-**2. Use /Abstraction/ to define different classes for each person type such as Student
+/Polymorphism/.  
+2. Use /Abstraction/ to define different classes for each person type such as Student
 and Instructor. These classes should have behavior for that type of person.  
 3. Use /Encapsulation/ to keep many details private in each class.  
 4. Use /Inheritance/ by leveraging the implementation already created in the Person
 class to save code in Student and Instructor classes.  
 5. Use /Polymorphism/ to create virtual methods that derived classes could override to
 create specific behavior such as salary calculations.**  
-```c#
-// Person.cs
-// abstraction
-public abstract class Person
-{
- public string Name { get; set; }
- public abstract void Display();
-
- // Inheritance example
- public virtual void Work()
- {
-  Console.WriteLine("Member of this school.");
- }
-}
-```
-```c#
-// Student.cs
-public class Student: Person
-{
- // encapsulation example1: private field & public property
- public int Grade { get; set; }
- public Student (string name, int grade)
- {
-  this.Name = name;
-  this.Grade = grade;
- }
-
- // encapsulation example2: private detail information & public getInfor
- private void informationDetail()
- {
-  Console.WriteLine("Name: " + this.Name);
-  Console.WriteLine("Grade: " + this.Grade);
- }
- public override void Display()
- {
-  informationDetail();
- }
-
- public override void Work()
- {
-  base.Work();
-  Console.WriteLine($"{Name} is a student from this school.");
- }
-}
-```
-```c#
-// Instructor.cs
-public class Instructor : Person
-{
- public string Course { get; set; }
-
- public Instructor(string name, string course)
- {
-  this.Name = name;
-  this.Course = course;
- }
-
- private void informationDetail()
- {
-  Console.WriteLine("Name: " + this.Name);
-  Console.WriteLine("Course: " + this.Course);
- }
- public override void Display()
- {
-  informationDetail();
- }
-
- public override void Work()
- {
-  base.Work();
-  Console.WriteLine($"{Name} is an instructor from this school.");
- }
-}
-```
-```c#
-// PersonWork.cs
-public class PersonWork
-{
- // polymorphism: implement multiple functionalities with one method
- public static void getWork(Person p)
- {
-  p.Work();
- }
-}
-```
-```c#
-// Main
-public static void Main()
-{
- Person std = new Student("Bob", 12);
- std.Display();
- PersonWork.getWork(std);
-
- Person itr = new Instructor("Bill", "C#");
- itr.Display();
- PersonWork.getWork(itr);
-}
-```
-
-
-
-
 **6. Make sure to create appropriate /interfaces/ such as ICourseService, IStudentService,
 IInstructorService, IDepartmentService, IPersonService, IPersonService (should have
 person specific methods). IStudentService, IInstructorService should inherit from
 IPersonService.**
-Person
-Calculate Age of the Person
-Calculate the Salary of the person, Use decimal for salary
-Salary cannot be negative number
-Can have multiple Addresses, should have method to get addresses
-Instructor
-Belongs to one Department and he can be Head of the Department
+Person  
+Calculate Age of the Person  
+Calculate the Salary of the person, Use decimal for salary  
+Salary cannot be negative number  
+Can have multiple Addresses, should have method to get addresses  
+Instructor  
+Belongs to one Department and he can be Head of the Department  
 Instructor will have added bonus salary based on his experience, calculate his
 years of experience based on Join Date
-Student
-Can take multiple courses
-Calculate student GPA based on grades for courses
-Each course will have grade from A to F
-Course
-Will have list of enrolled students
-Department
-Will have one Instructor as head
-Will have Budget for school year (start and end Date Time)
-Will offer list of courses
-```c#
+Student  
+Can take multiple courses  
+Calculate student GPA based on grades for courses  
+Each course will have grade from A to F  
+Course  
+Will have list of enrolled students  
+Department  
+Will have one Instructor as head  
+Will have Budget for school year (start and end Date Time)  
+Will offer list of courses  
 
-```
+Link of answer:
+
+
