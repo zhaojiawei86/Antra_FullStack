@@ -1,5 +1,5 @@
-# Assignment 6 for Antra Full Stack  
-Object-Oriented Programming  
+# Assignment 6 Object-Oriented Programming  
+
 Jiawei Zhao
 
 **1. What are the six combinations of access modifier keywords and what do they do?**  
