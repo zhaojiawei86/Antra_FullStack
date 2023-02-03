@@ -247,37 +247,119 @@ public static void Area(Shape shape)
 }
 ```
 
-
-```c#
-
-```
-```c#
-
-```
-```c#
-
-```
-```c#
-
-```
-```c#
-
-```
-```c#
-
-```
-
-2. Use /Abstraction/ to define different classes for each person type such as Student
-and Instructor. These classes should have behavior for that type of person.
-3. Use /Encapsulation/ to keep many details private in each class.
+**2. Use /Abstraction/ to define different classes for each person type such as Student
+and Instructor. These classes should have behavior for that type of person.  
+3. Use /Encapsulation/ to keep many details private in each class.  
 4. Use /Inheritance/ by leveraging the implementation already created in the Person
-class to save code in Student and Instructor classes.
+class to save code in Student and Instructor classes.  
 5. Use /Polymorphism/ to create virtual methods that derived classes could override to
-create specific behavior such as salary calculations.
-6. Make sure to create appropriate /interfaces/ such as ICourseService, IStudentService,
+create specific behavior such as salary calculations.**  
+```c#
+// Person.cs
+// abstraction
+public abstract class Person
+{
+ public string Name { get; set; }
+ public abstract void Display();
+
+ // Inheritance example
+ public virtual void Work()
+ {
+  Console.WriteLine("Member of this school.");
+ }
+}
+```
+```c#
+// Student.cs
+public class Student: Person
+{
+ // encapsulation example1: private field & public property
+ public int Grade { get; set; }
+ public Student (string name, int grade)
+ {
+  this.Name = name;
+  this.Grade = grade;
+ }
+
+ // encapsulation example2: private detail information & public getInfor
+ private void informationDetail()
+ {
+  Console.WriteLine("Name: " + this.Name);
+  Console.WriteLine("Grade: " + this.Grade);
+ }
+ public override void Display()
+ {
+  informationDetail();
+ }
+
+ public override void Work()
+ {
+  base.Work();
+  Console.WriteLine($"{Name} is a student from this school.");
+ }
+}
+```
+```c#
+// Instructor.cs
+public class Instructor : Person
+{
+ public string Course { get; set; }
+
+ public Instructor(string name, string course)
+ {
+  this.Name = name;
+  this.Course = course;
+ }
+
+ private void informationDetail()
+ {
+  Console.WriteLine("Name: " + this.Name);
+  Console.WriteLine("Course: " + this.Course);
+ }
+ public override void Display()
+ {
+  informationDetail();
+ }
+
+ public override void Work()
+ {
+  base.Work();
+  Console.WriteLine($"{Name} is an instructor from this school.");
+ }
+}
+```
+```c#
+// PersonWork.cs
+public class PersonWork
+{
+ // polymorphism: implement multiple functionalities with one method
+ public static void getWork(Person p)
+ {
+  p.Work();
+ }
+}
+```
+```c#
+// Main
+public static void Main()
+{
+ Person std = new Student("Bob", 12);
+ std.Display();
+ PersonWork.getWork(std);
+
+ Person itr = new Instructor("Bill", "C#");
+ itr.Display();
+ PersonWork.getWork(itr);
+}
+```
+
+
+
+
+**6. Make sure to create appropriate /interfaces/ such as ICourseService, IStudentService,
 IInstructorService, IDepartmentService, IPersonService, IPersonService (should have
 person specific methods). IStudentService, IInstructorService should inherit from
-IPersonService.
+IPersonService.**
 Person
 Calculate Age of the Person
 Calculate the Salary of the person, Use decimal for salary
@@ -297,3 +379,6 @@ Department
 Will have one Instructor as head
 Will have Budget for school year (start and end Date Time)
 Will offer list of courses
+```c#
+
+```
