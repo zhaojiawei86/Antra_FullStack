@@ -187,9 +187,10 @@ True.
 **1. Write a program that demonstrates use of four basic principles of
 object-oriented programming /Abstraction/, /Encapsulation/, /Inheritance/ and
 /Polymorphism/.**  
-**Abstraction**: hide detail and show the necessary information.  
+
 ```c#
 // Shape.cs
+// Abstraction
 public abstract class Shape
 {
  public abstract double getArea();
@@ -197,6 +198,7 @@ public abstract class Shape
 ```
 ```c#
 // Circle.cs
+// Inheritance
 public class Circle: Shape
 {
  public double Radius { get; set; }
@@ -213,6 +215,7 @@ public class Circle: Shape
 ```
 ```c#
 // Square.cs
+// Encapsulation
 public class Square: Shape
 {
  public double Side { get; set; }
@@ -229,12 +232,22 @@ public class Square: Shape
 ```
 ```c#
 // Main
-var circle = new Circle(10);
-Console.WriteLine(circle.getArea()); // 314.1592653589793
+public static void Main()
+{
+ var circle = new Circle(10);      
+ var square = new Square(10);
 
-var square = new Square(10); 
-Console.WriteLine(square.getArea()); // 100
+ Area(circle);
+ Area(square);
+}
+// Polymorphism
+public static void Area(Shape shape)
+{
+ Console.WriteLine(shape.GetArea());
+}
 ```
+
+
 ```c#
 
 ```
