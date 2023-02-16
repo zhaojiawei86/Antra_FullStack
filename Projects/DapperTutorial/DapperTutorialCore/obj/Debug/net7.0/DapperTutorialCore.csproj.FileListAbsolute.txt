@@ -1,0 +1,12 @@
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/bin/Debug/net7.0/DapperTutorialCore.deps.json
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/bin/Debug/net7.0/DapperTutorialCore.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/bin/Debug/net7.0/DapperTutorialCore.pdb
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.csproj.AssemblyReference.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.AssemblyInfoInputs.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.AssemblyInfo.cs
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.csproj.CoreCompileInputs.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/refint/DapperTutorialCore.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/DapperTutorialCore.pdb
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialCore/obj/Debug/net7.0/ref/DapperTutorialCore.dll
