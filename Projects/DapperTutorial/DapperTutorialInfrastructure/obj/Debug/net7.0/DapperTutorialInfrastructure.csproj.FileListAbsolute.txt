@@ -1,0 +1,15 @@
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.csproj.AssemblyReference.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.AssemblyInfoInputs.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.AssemblyInfo.cs
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.csproj.CoreCompileInputs.cache
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/bin/Debug/net7.0/DapperTutorialInfrastructure.deps.json
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/bin/Debug/net7.0/DapperTutorialInfrastructure.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/bin/Debug/net7.0/DapperTutorialInfrastructure.pdb
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/bin/Debug/net7.0/DapperTutorialCore.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/bin/Debug/net7.0/DapperTutorialCore.pdb
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.csproj.CopyComplete
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/refint/DapperTutorialInfrastructure.dll
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/DapperTutorialInfrastructure.pdb
+/Users/jiaweizhao/Desktop/antra/Projects/DapperTutorial/DapperTutorialInfrastructure/obj/Debug/net7.0/ref/DapperTutorialInfrastructure.dll
