@@ -1,0 +1,37 @@
+.news-section {
+  padding: 5%;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.paging-bar {
+  padding: 5%;
+  width: 30%;
+  float: left;
+}
+
+.paging-bar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.paging-bar li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.paging-bar a {
+  display: block;
+  padding: 5px;
+  background-color: #ddd;
+  text-decoration: none;
+  color: #333;
+}
+
+.paging-bar a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
