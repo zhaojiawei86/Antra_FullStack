@@ -1,9 +1,14 @@
 ## Difference between mvc controller and web api controller
 
-MVC and Web API are two different frameworks used for building web applications, and they have different purposes.
+Both MVC controllers and Web API controllers are used in ASP.NET applications for handling incoming HTTP requests, but they also have some differences:
 
-A MVC Controller is a class that controls the flow of data between the Model and the View. It handles user requests, retrieves data from the Model, and passes it to the View for rendering. In an MVC architecture, the Controller is responsible for handling user input and making decisions about which Model methods to call and which View to display.
+1. Purpose:
+The main purpose of MVC controllers is to handle requests related to rendering views and business logic related to those views.   
+In contrast, Web API controllers are designed to handle requests related to data retrieval.
 
-A Web API Controller, on the other hand, is a specialized type of MVC Controller that is designed specifically for building RESTful Web APIs. It responds to HTTP requests from clients and returns data in a specified format, usually JSON or XML. Unlike an MVC Controller, a Web API Controller does not render a View or handle user input. Instead, it provides a simple and flexible way to expose business logic to a variety of clients, including web and mobile applications.
+2. Return Types:
+MVC controllers typically return views or partial views, whereas Web API controllers typically return data in the form of JSON or other data formats.
 
-In summary, the main difference between an MVC Controller and a Web API Controller is their purpose. An MVC Controller is used to handle user input and render Views, while a Web API Controller is used to provide data to clients through a RESTful API.
+3. Routing:
+MVC controllers are typically associated with a specific view or set of views, and the routing is typically defined based on the URL path and query string parameters.   
+Web API controllers are typically associated with a specific data entity or set of entities, and the routing is based on the HTTP verb and the data entity being manipulated.
