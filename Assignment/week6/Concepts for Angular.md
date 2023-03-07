@@ -25,3 +25,9 @@ For AOT:
 ng build --aot
 ng serve --aot 
 ```
+### 3. Directives vs Pipe
+In Angular, pipes write display-value transformations that you can declare in your HTML. Directives provide functionality and can transform the DOM. 
+
+Directives are used to add behavior to an existing DOM element or to create new DOM elements. They can be used to create reusable components, apply styles dynamically, handle user events, and more.
+
+Pipes are used to transform data before it is displayed in the template. They take in data as input and transform it into a desired output format. Pipes are typically used for formatting dates, currency values, and text.
